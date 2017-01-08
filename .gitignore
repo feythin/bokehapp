@@ -1,0 +1,51 @@
+# Translations
+*.mo
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.egg-info
+*.pot
+*.py[cod]
+__pycache__
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Django stuff:
+*.log
+.idea
+*~
+.ropeproject
+.project
+.coverage
+.pydevproject
+.settings
+
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+migrations/
+!migrations/__init__.py
+
+logs/
+
+# virtualenv
+venv/
+ENV/
+myvenv/
+.venv/

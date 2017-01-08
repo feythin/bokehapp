@@ -1,0 +1,47 @@
+attrs:
+
+  Figure:
+    background_fill_color: '#2F2F2F' #控制横轴和纵轴包围里面的区域的颜色
+    border_fill_color: '#2F2F2F' #控制Figure控制的width和height区域内减去background_fill_color区域剩下区域的颜色
+    background_fill_alpha: 0.2
+    plot_width: 350
+    plot_height: 420
+#    toolbar_location: "left"  #配置左边工具栏
+#    min_border_bottom: 0
+#    min_border_top: 0
+#    outline_line_color: '#FF0EE8' #控制横轴和纵轴的上面和右边划线的颜色(默认没有线)
+
+  Plot:
+    outline_line_color: null  #
+    toolbar_location: null  #控制是否显示toolbar
+    min_border: 20  #控制画布里距离的控制的横轴和纵轴的距离
+
+  Axis:
+    minor_tick_in: null
+    minor_tick_out: null
+    major_tick_in: null
+    major_label_text_font_size: '10pt' #控制横轴和纵轴刻度线的说明字体大小
+    major_label_text_font_style: 'normal'
+    axis_label_text_font_size: '10pt'  #控制横轴和纵轴的文字说明的字体大小
+    axis_label_text_font_style: 'normal'
+    axis_label_text_color: '#1DC7FF'
+
+    axis_line_color: '#FF3D31'  #控制横轴直线和纵轴直线的颜色
+    major_tick_line_color: '#3960FF' #控制横轴和纵轴的直线上的标记线的颜色
+    minor_tick_line_color: "#FF0EE8"  #好像没有什么作用
+    major_label_text_color: '#FFD019' #控制横轴和纵轴直线上标记线文本的颜色
+
+
+    major_tick_line_cap: 'round'
+    axis_line_cap: 'round'
+    axis_line_width: 2  #控制横轴直线和纵轴直线的粗细
+    major_tick_line_width: 4  #控制横轴和纵轴的直线上的标记线的粗细
+
+  Grid:
+    grid_line_alpha: 0.4
+#    grid_line_color: null  #配置曲线图区域内是否要要显示x,y轴刻度线, null不显示
+
+  Title:
+    text_color: "#FF0EE8"  #控制画布的title的字体颜色
+    text_font_size: '14pt'
+

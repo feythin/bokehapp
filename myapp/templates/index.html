@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    </style>
+    <meta charset="utf-8">
+    <!--<link href="/myapp/static/css/bootstrap.css" rel="stylesheet">-->
+    <link href="/myapp/static/css/app.css" rel="stylesheet">
+    <!--<script src="/myapp/static/js/bootstrap.js"></script>-->
+    <title>Bokeh Crossfilter Example</title>
+    {{ bokeh_css }}
+    {{ bokeh_js }}
+</head>
+<body>
+<div class="scroll_full" id="plot1">
+    <div id="main">
+        {{ plot_div|indent(8) }}
+        {{ plot_script|indent(8) }}
+    </div>
+</div>
+<script src="/myapp/static/js/jquery.js"></script>
+<script src="/myapp/static/js/app.js"></script>
+</body>
+</html>
